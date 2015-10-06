@@ -7,6 +7,7 @@
  */
 
 require __DIR__ . "/Hello.php";
+require __DIR__ . "/vendor/autoload.php";
 
 $greetings = new Hello();
 $greetings->sayHello();
