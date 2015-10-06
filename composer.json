@@ -1,0 +1,11 @@
+{
+    "name": "max/hello-world-composer",
+    "description": "Composer!",
+    "authors": [
+        {
+            "name": "Max",
+            "email": "maksymkharuk@iesebre.com"
+        }
+    ],
+    "require": {}
+}
