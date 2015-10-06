@@ -1,5 +1,8 @@
 <?php
 
+namespace Com\Iesebre\Dam2\max\HelloWorldComposer;
+use Faker\Factory;
+
 /**
  * Created by PhpStorm.
  * User: max
@@ -17,7 +20,7 @@ class Hello
      */
     public function __construct()
     {
-        $this->faker = Faker\Factory::create();
+        $this->faker = Factory::create();
     }
 
     public function sayHello()
